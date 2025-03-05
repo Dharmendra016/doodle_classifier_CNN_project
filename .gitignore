@@ -1,0 +1,5 @@
+.venv
+doodle_classifier_model_v2.h5
+doodle_classifier.h5
+model_Vnew.h5
+received_images
