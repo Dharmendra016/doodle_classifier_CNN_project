@@ -6,7 +6,8 @@ import numpy as np
 import cv2
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://doodle-classifier-cnn-project.onrender.com"])
+
 # Load the model
 model = load_model('./modelD.h5')  # Update with the path to your model
 
