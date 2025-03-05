@@ -48,4 +48,4 @@ def predict():
     return jsonify({'class': class_label, 'confidence': float(predictions[0][class_id])})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
