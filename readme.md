@@ -1,6 +1,6 @@
 # Doodle Classifier
 
-This project is a web-based doodle classifier that allows users to draw doodles on a canvas and classify them using a pre-trained machine learning model.
+This project is a web-based doodle classifier that allows users to draw doodles on a canvas and classify them using a Convolutional Neural Network (CNN), a deep learning model.
 
 ## Project Structure
 
